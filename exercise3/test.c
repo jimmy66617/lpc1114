@@ -14,7 +14,7 @@ int main (void)
 {
 		init_timer_16bit (test_timer_number, interval);
 		enable_timer_16bit (test_timer_number); 
-		set_direction ( 2, 7, 1 );//set port ?_? outport 
+		set_direction ( 2, 7, 1 );//set port 2_7 outport 
 		while (1) {
 				#if test_timer_number
 				#else
