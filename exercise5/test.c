@@ -1,7 +1,7 @@
 #include "LPC11xx.h"
 #include "pwm.h"
 #include "adc.h"
-
+//adjust the voltage fed into the ADC and control the brightness of the LED¡APWM channel output to control brightness of the LED 
 int main(void)
 {  
 		float duty;

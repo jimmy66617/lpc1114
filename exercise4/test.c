@@ -18,7 +18,8 @@ static __inline void set_button (void){
 static __inline int button_click (void){
 	return LPC_GPIO2->DATA&(1<<6);
 }
-
+/*Short click (less than 0.5 sec) on the push button to toggle the state of the LED.
+Long press (>= 0.5 sec) to flash the LED (0.25 sec on, 0.25 sec off)¡Ause button interrupt*/
 int main(void)
 {
 		LPC_GPIO2->IS |= (1<<6);

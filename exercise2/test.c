@@ -8,7 +8,7 @@
 #define short_click_time 500
 #define flash_time 250
 #define off_time 250
-
+ 
 extern volatile uint32_t timer0_16bit_counter;
 
 static __inline void set_button (void){

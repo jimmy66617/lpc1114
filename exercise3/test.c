@@ -9,7 +9,7 @@
 #define off_time 250
 
 extern volatile uint32_t timer0_16bit_counter;
-
+//Flash port2_7 LED, on for 1 sec and off for 0.25 sec,use timer interrupt.
 int main (void)
 {
 		init_timer_16bit (test_timer_number, interval);
